@@ -1,0 +1,113 @@
+body {
+    background: #283F51;
+    color: rgb(245, 241, 238);
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+.logo {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(29, 151, 233);
+    font-style: italic;
+    font-weight: 700;
+  }
+  nav p {
+    font-size: 26px;
+  }    
+  nav a:hover {
+    color: blue;
+      }
+      nav {
+        text-align: right;
+        margin-top: 30px;
+        font-size: 20px;
+      }
+      h1 a{
+        font-size: larger;
+        font-weight: lighter;
+        font-style: italic;
+        color: darkgreen;
+    }
+    h1 a:hover {
+        color: blue
+    }
+    .container {
+      margin: 0 135px;
+    }
+    .container_2 {
+      margin-top:160px;
+      padding-left: 70px;
+      padding-right: 70px;
+      text-align: center;
+  }
+  .container_2 h1{
+    font-size: 60px;
+    font-weight: 100;
+  color: #587B77;
+}
+.container_2 p {
+font-size: 25px;
+font-weight: 500;
+line-height: 2;
+color: rgb(199,205,209)
+}
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+.col_parent {
+    background: linear-gradient(to right, green, lime, blue);
+  color: black;
+  padding:50px 0 30px 50px; 
+  margin-top: 20px;
+  text-align: center;
+}
+.col {
+  display: inline-block;
+  width: 25%;
+  margin: 30px;
+}  
+.col a {
+   display: block;
+   margin-bottom: 10px;
+   text-align: left;
+    text-transform: uppercase;
+ }
+ .col p{
+   text-align: left;
+   font-size: 20px;
+ }
+ .col a:hover{
+   color: blue;
+  }
+  .hero {
+    margin: 0 135px 30px 40px;
+}
+nav small{
+  float: left;
+}
